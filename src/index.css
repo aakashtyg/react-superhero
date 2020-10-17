@@ -36,3 +36,21 @@ code {
   font-size: 20px;
   margin-bottom: 50px;
 }
+.search-result {
+  display: flex;
+  background: #fff;
+  box-sizing: border-box;
+  margin-bottom: 20px
+}
+.search-result .left img {
+  height: 160px
+}
+.search-result .right {
+  padding-left: 30px;
+}
+.search-result .right h1 {
+  margin-top: 5px;
+}
+.stats div {
+  font-size: 20px;
+}
