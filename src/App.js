@@ -1,18 +1,14 @@
 import React, { useState } from 'react';
+import Navbar from './Navbar';
+import SearchBar from './SearchBar';
+import SearchResults from './SearchResults';
 
 function App() {
-  const [name, setName] = useState('Aakash');
-  
-  function changeName () {
-    setName('Mark');
-  }
-
   return (
     <div className="App">
-      Hello {name}
-
-      <br/>
-      <button onClick={changeName}>Change Name</button>
+      <Navbar />
+      <SearchBar />
+      <SearchResults />
     </div>
   );
 }
